@@ -8,6 +8,10 @@
     color:white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 20px;
+    padding:5%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
 #box{
 

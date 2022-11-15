@@ -32,6 +32,7 @@ const finishMessage = `You finished in ${elapsedTime/1000} seconds!`;
 messageElement.innerText = finishMessage;
 typedValueElement.disabled = true;
 typedValueElement.className="hidden";
+
  } else if( typedValue.trim() === currentWord){//typedValue.endsWith(" ") &&
     typedValueElement.value = "";
     wordIndex++;
